@@ -7,18 +7,17 @@
 <html>
 <head>
     <title>kevondsmith.github.io</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+    <link href="assets/css/main.css" rel="stylesheet"/>
 </head>
 <body class="is-preload">
-
 
 
 <!-- Header -->
 <header id="header">
     <div class="inner">
-        <a class="image avatar"><img src="images/profile_picture.jpeg" alt="" /></a>
+        <a class="image avatar"><img alt="" src="images/profile_picture.jpeg"/></a>
         <h1><strong>Hi, I am Kevon Smith</strong></h1>
     </div>
 </header>
@@ -31,8 +30,9 @@
             <h2> About Me</h2>
         </header>
         <p> Hi!! I'm Kevon Smith. An Alumnus of The University of South Carolina in Columbia, SC.
-            I graduated with a Bachelors Degree in Computer Science. Go Cocks!! I really enjoy outdoor activities, and sports.
-            Basketball is my favorite sport (I graduated from USC, but UNC is my school, so #GTDBATH).  </p>
+            I graduated with a Bachelors Degree in Computer Science. Go Cocks!! I really enjoy outdoor activities, and
+            sports.
+            Basketball is my favorite sport (I graduated from USC, but UNC is my school, so #GTDBATH). </p>
     </section>
 </article>
 
@@ -40,33 +40,43 @@
 <footer id="footer">
     <div class="inner">
         <ul class="icons">
-            <li><a href="https://twitter.com/kevondsmith" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="https://github.com/kevondsmith" class="icon brands fa-github"><span class="label">Github</span></a></li>
-            <li><a href="mailto: kevondsmith@outlook.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-            <li><a href="https://www.facebook.com/Kevondsmith" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-            <li><a href="https://www.linkedin.com/in/kevondsmith/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
+            <li><a class="icon brands fa-twitter" href="https://twitter.com/kevondsmith"><span
+                    class="label">Twitter</span></a></li>
+            <li><a class="icon brands fa-github" href="https://github.com/kevondsmith"><span class="label">Github</span></a>
+            </li>
+            <li><a class="icon solid fa-envelope" href="mailto: kevondsmith@outlook.com"><span
+                    class="label">Email</span></a></li>
+            <li><a class="icon brands fa-facebook-f" href="https://www.facebook.com/Kevondsmith"><span class="label">Facebook</span></a>
+            </li>
+            <li><a class="icon brands fa-linkedin" href="https://www.linkedin.com/in/kevondsmith/"><span class="label">linkedin</span></a>
+            </li>
         </ul>
         <ul class="copyright">
-            <li>&copy; Kevon Smith </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            <li>&copy; Kevon Smith</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
     </div>
 </footer>
 
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.poptrox.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.poptrox.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script>
+    document.write('<a href="' + document.referrer + '">Go Back</a>');
+</script>
 
-
-    <script>
-        if ('addEventListener' in window) {
-            window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-            document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-        }
-    </script>
+<script>
+    if ('addEventListener' in window) {
+        window.addEventListener('load', function () {
+            document.body.className = document.body.className.replace(/\bis-preload\b/, '');
+        });
+        document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+    }
+</script>
 </body>
 </html>

@@ -75,8 +75,9 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-
-
+<script>
+    document.write('<a href="' + document.referrer + '">Go Back</a>');
+</script>
 <script>
     if ('addEventListener' in window) {
         window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
