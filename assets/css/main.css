@@ -2707,10 +2707,12 @@ input, select, textarea {
 /*Menu */
 .dropbtn {
 	background-color: #1f1815;
-	color: white;
+	color: #fff4b6;
+	width: 600 px;
+	height: 60 px;
 	padding: 16px;
 	font-size: 16px;
-	border:
+	border: #dddddd;
 }
 
 .dropdown {
@@ -2734,11 +2736,11 @@ input, select, textarea {
 	display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #dddddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #fff4b6;}
 
 
 /* Poptrox */
