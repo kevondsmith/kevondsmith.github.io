@@ -290,6 +290,30 @@ input, select, textarea {
 
 		}
 
+
+/* buttons */
+#buttons li {
+	float: left;
+	list-style: none;
+	text-align: center;
+	background-color: #000000;
+	margin-right: 30px;
+	width: 150px;
+	line-height: 60px;
+}
+
+#buttons li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+}
+
+#buttons li a:hover {
+	text-decoration: none;
+	color: #000000;
+	background-color: #33B5E5;
+}
+
 /* Row */
 
 	.row {
@@ -2686,31 +2710,7 @@ input, select, textarea {
 		max-width: 54em;
 		padding: 8em 4em 4em 4em;
 		width: calc(100% - 35%);
-		float: left;
-		list-style: none;
 	}
-
-#buttons li {
-	float: left;
-	list-style: none;
-	text-align: center;
-	background-color: #000000;
-	margin-right: 30px;
-	width: 150px;
-	line-height: 60px;
-}
-
-#buttons li a {
-	text-decoration: none;
-	color: #FFFFFF;
-	display: block;
-}
-
-#buttons li a:hover {
-	text-decoration: none;
-	color: #000000;
-	background-color: #33B5E5;
-}
 
 		#main > section {
 			border-top: solid 2px #efefef;
