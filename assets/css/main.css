@@ -2708,8 +2708,8 @@ input, select, textarea {
 .dropbtn {
 	background-color: #1f1815;
 	color: #fff4b6;
-	width: 600 px;
-	height: 60 px;
+	width: 600px;
+	height: 60px;
 	padding: 16px;
 	font-size: 16px;
 	border: #dddddd;
@@ -2740,7 +2740,7 @@ input, select, textarea {
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #fff4b6;}
+.dropdown:hover .dropbtn {background-color: #787878}
 
 
 /* Poptrox */
