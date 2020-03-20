@@ -1,2 +1,2 @@
-# Kevon's Personal Websited Hosted on GitHub
+# Kevon's Personal Website Hosted on GitHub
 
