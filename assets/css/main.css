@@ -2706,16 +2706,16 @@ input, select, textarea {
 
 /*Menu */
 .dropbtn {
-	background-color: #4CAF50;
+	background-color: ;
 	color: white;
 	padding: 16px;
 	font-size: 16px;
-	border: none;
+	border:
 }
 
 .dropdown {
 	position: relative;
-	display: inline-block;
+	display: inline-blo`c`k;
 }
 
 .dropdown-content {
