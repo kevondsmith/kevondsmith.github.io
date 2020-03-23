@@ -110,12 +110,17 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
 		color: #49bf9d;
 		text-decoration: none;
+		display: inline-block;
+		padding: 8px 16px;
+	}
+	a.previous {
+		background-color: #f1f1f1;
+		color: black;
 	}
 
-		a:hover {
+	a:hover {
 			border-bottom-color: transparent;
 			color: #49bf9d !important;
 			text-decoration: none;
@@ -2708,7 +2713,7 @@ input, select, textarea {
 .dropbtn {
 	background-color: #1f1815;
 	color: #fff4b6;
-	width: 600px;
+	width: 800px;
 	height: 60px;
 	padding: 16px;
 	font-size: 16px;
@@ -2724,7 +2729,8 @@ input, select, textarea {
 	display: none;
 	position: absolute;
 	background-color: #f1f1f1;
-	min-width: 160px;
+	min-width: 800px;
+	text-align: center;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
 }
